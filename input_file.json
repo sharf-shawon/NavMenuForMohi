@@ -1,0 +1,88 @@
+{
+    "data": [
+        {
+            "cluster_name": "CDP Cluster",
+            "cm": "HOSTNAME1",
+            "roles": {
+                "kudu-KUDU_MASTER-6e675e3e7260bb6ebc6ab0631a88be5e": "KUDU_MASTER",
+                "service": "KUD",
+                "kudu-KUDU_TSERVER-3c7a94b29614182280b548a2361ddd95": "KUDU_TSERVER",
+                "kudu-KUDU_TSERVER-d8cc1c470b93e165d890156feb2f59b2": "KUDU_TSERVER",
+                "kudu-KUDU_TSERVER-99f1478b02e5bbc01756c529a73ef74c": "KUDU_TSERVER",
+                "kudu-KUDU_TSERVER-3bff87aa28b9836832829c45e66e1c59": "KUDU_TSERVER",
+                "kudu-KUDU_TSERVER-6e30c35d1ec46a35763b3275c2509f8f": "KUDU_TSERVER",
+                "kudu-KUDU_TSERVER-f748b78c98bbf3528cc82619babc8d59": "KUDU_TSERVER",
+                "kudu-KUDU_TSERVER-c994957dcd26a2d3d501f4a5bff6fb20": "KUDU_TSERVER",
+                "kudu-KUDU_MASTER-5f7fb19aaa2a184edbe5801a6f770e96": "KUDU_MASTER",
+                "kudu-KUDU_TSERVER-ee8bd27a12c6f6eb1572178814a1f74c": "KUDU_TSERVER",
+                "kudu-KUDU_TSERVER-8591a254645c1a896bd7c949eab7eb16": "KUDU_TSERVER"
+            }
+        },
+        {
+            "cluster_name": "KTS Cluster",
+            "cm": "HOSTNAME1",
+            "roles": {
+                "keyt4b5fbce2-KEYTRUSTEE_PASSIVE_SERVER-f91c193abb651aeda39b5c076": "KEYTRUSTEE_PASSIVE_SERVER",
+                "keytrustee_server-DB_ACTIVE-be46d47ef84054a76670a152831c3dc1": "DB_ACTIVE",
+                "keytrustee_server-DB_PASSIVE-f91c193abb651aeda39b5c0761b71a04": "DB_PASSIVE",
+                "service": "KEYTRUSTEE_SERVER",
+                "keyt4b5fbce2-KEYTRUSTEE_ACTIVE_SERVER-be46d47ef84054a76670a15283": "KEYTRUSTEE_ACTIVE_SERVER"
+            }
+        },
+        {
+            "cluster_name": "Dev Kafka Cluster",
+            "cm": "HOSTNAME1",
+            "roles": {
+                "service": "CRUISE_CONTROL",
+                "crui7e1cc098-CRUISE_CONTROL_SERVER-000c65911b6ee8b8b6e4eb476a1d6": "CRUISE_CONTROL_SERVER"
+            }
+        },
+        {
+            "cluster_name": "UAT Kafka Cluster",
+            "cm": "HOSTNAME1",
+            "roles": {
+                "kafka2-KAFKA_BROKER-9bc6df2c18345e7ed985dc33235ce7d1": "KAFKA_BROKER",
+                "kafka2-KAFKA_BROKER-33bbb2bc7e4ff1a7c8c61e0834abb077": "KAFKA_BROKER",
+                "service": "KAFKA",
+                "kafka2-KAFKA_BROKER-9002a751f9704bc23288f8513e971a9a": "KAFKA_BROKER"
+            }
+        },
+        {
+            "cluster_name": "GTO CDP DEV",
+            "cm": "HOSTNAME1",
+            "roles": {
+                "service": "QUEUEMANAGER",
+                "queu80646dc4-QUEUEMANAGER_STORE-92e6440f2b7c07b4147ebb9d2284d1e6": "QUEUEMANAGER_STORE",
+                "queu80646dc4-QUEUEMANAGER_WEBAPP-92e6440f2b7c07b4147ebb9d2284d1e": "QUEUEMANAGER_WEBAPP"
+            }
+        },
+        {
+            "cluster_name": "PreProd PDC Cloudera",
+            "cm": "HOSTNAME2",
+            "roles": {
+                "livy446c4191-LIVY_SERVER_FOR_SPARK3-37a1b6a2a3cb6baa2cbde33aca8b": "LIVY_SERVER_FOR_SPARK3",
+                "service": "LIVY_FOR_SPARK3"
+            }
+        },
+        {
+            "cluster_name": "PreProd PDC Kafka Data",
+            "cm": "HOSTNAME2",
+            "roles": {
+                "stre8a40872b-STREAMS_MESSAGING_MANAGER_UI-8e144ccc647d6681389243": "STREAMS_MESSAGING_MANAGER_UI",
+                "stre8a40872b-STREAMS_MESSAGING_MANAGER_SERVER-8e144ccc647d668138": "STREAMS_MESSAGING_MANAGER_SERVER",
+                "service": "STREAMS_MESSAGING_MANAGER"
+            }
+        },
+        {
+            "cluster_name": "PreProd PDC Key Trustee Server Cluster",
+            "cm": "HOSTNAME2",
+            "roles": {
+                "keytrustee_server-DB_ACTIVE-c0254623217586955b993d7fa1d6f1c9": "DB_ACTIVE",
+                "keyt4b5fbce2-KEYTRUSTEE_PASSIVE_SERVER-787066f8082ccdaa92be5907b": "KEYTRUSTEE_PASSIVE_SERVER",
+                "keytrustee_server-DB_PASSIVE-787066f8082ccdaa92be5907b50835f4": "DB_PASSIVE",
+                "service": "KEYTRUSTEE_SERVER",
+                "keyt4b5fbce2-KEYTRUSTEE_ACTIVE_SERVER-c0254623217586955b993d7fa1": "KEYTRUSTEE_ACTIVE_SERVER"
+            }
+        }
+    ]
+}
